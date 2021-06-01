@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    app:cardElevation="7dp"
+    app:cardCornerRadius="7dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="7dp"
+    >
+
+    <ImageView
+        android:id="@+id/transaction_status"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/logo_1" />
+
+    <TextView
+        android:id="@+id/tv_payment_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginRight="18dp"
+        android:text="Cash"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_reason"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Samsung T.V."
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:text="Mon - 10 - july"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="10,00000"
+        android:textSize="18dp"
+        android:textColor="#83E332"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pocket Tracker</string>
+    <string name="add_income">Add Amount</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="amount_left">Amount Left </string>
+    <string name="amount_spend">Amount spended</string>
+    <string name="amount_added">Amount Received</string>
+    <string name="add_income_hint">Add Amount here</string>
+    <string name="for_what">for what</string>
+    <string name="add_income_note_hint">income source e.g. Salary</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="payment_option">
+        <item>cash</item>
+        <item>UPI</item>
+        <item>Card</item>
+        <item>Online Transaction</item>
+        <item>Cheque</item>
+        <item>By hand</item>
+        <item>Other</item>
+    </string-array>
+</resources>

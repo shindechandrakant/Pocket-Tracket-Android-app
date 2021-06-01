@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#000B06</color>
+    <color name="button_color">#00796B</color>
+    <color name="card_color">#80CBC4</color>
+    <color name="home_buttons">#90CAF9</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="received">#3CD33D</color>
+    <color name="send">#EF2727</color>
+    <color name="payed">#95EF8B</color>
+    <color name="pending">#A5B2F4</color>
+</resources>
